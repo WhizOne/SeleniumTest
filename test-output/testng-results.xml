@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="184851" started-at="2016-03-17T06:27:21Z" finished-at="2016-03-17T06:30:26Z">
+    <groups>
+    </groups>
+    <test name="TestLoginapp" duration-ms="67794" started-at="2016-03-17T06:27:21Z" finished-at="2016-03-17T06:28:29Z">
+      <class name="TestPackage.TestLoginapp">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestPackage.TestLoginapp@11e19edb]" name="beforeTest" is-config="true" duration-ms="11414" started-at="2016-03-17T11:57:21Z" finished-at="2016-03-17T11:57:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="LoginIntoApp()[pri:0, instance:TestPackage.TestLoginapp@11e19edb]" name="LoginIntoApp" duration-ms="54801" started-at="2016-03-17T11:57:33Z" finished-at="2016-03-17T11:58:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginIntoApp -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestPackage.TestLoginapp@11e19edb]" name="afterTest" is-config="true" duration-ms="1567" started-at="2016-03-17T11:58:27Z" finished-at="2016-03-17T11:58:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestPackage.TestLoginapp -->
+    </test> <!-- TestLoginapp -->
+    <test name="TestLoginapp1" duration-ms="64578" started-at="2016-03-17T06:28:29Z" finished-at="2016-03-17T06:29:34Z">
+      <class name="TestPackage.TestLoginapp1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestPackage.TestLoginapp1@336e8a49]" name="beforeTest" is-config="true" duration-ms="7464" started-at="2016-03-17T11:58:29Z" finished-at="2016-03-17T11:58:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="LoginIntoApp1()[pri:0, instance:TestPackage.TestLoginapp1@336e8a49]" name="LoginIntoApp1" duration-ms="55373" started-at="2016-03-17T11:58:36Z" finished-at="2016-03-17T11:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginIntoApp1 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestPackage.TestLoginapp1@336e8a49]" name="afterTest" is-config="true" duration-ms="1740" started-at="2016-03-17T11:59:32Z" finished-at="2016-03-17T11:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestPackage.TestLoginapp1 -->
+    </test> <!-- TestLoginapp1 -->
+    <test name="TestloginApp2" duration-ms="52419" started-at="2016-03-17T06:29:34Z" finished-at="2016-03-17T06:30:26Z">
+      <class name="TestPackage.TestloginApp2">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestPackage.TestloginApp2@21d195ca]" name="beforeTest" is-config="true" duration-ms="6608" started-at="2016-03-17T11:59:34Z" finished-at="2016-03-17T11:59:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="LoginIntoApp2()[pri:0, instance:TestPackage.TestloginApp2@21d195ca]" name="LoginIntoApp2" duration-ms="43861" started-at="2016-03-17T11:59:40Z" finished-at="2016-03-17T12:00:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Logout] but found [Logout
+Pradeep Kumar Premium
+MY MEMBERSHIP
+My Profile
+My Business
+Renew Membership
+MY LOCALITY GUIDE
+Search Listing
+MY EVENT
+Enter New Event
+Edit Entry
+Pay
+MY HISTORY
+Events
+Invoices
+MY RESOURCES
+Resources
+Help
+MY STORE
+iCompete INBA
+Contest Prep Course
+LIFT-iQ
+Privacy - Terms - Safety - Code of Ethics - Help - Advertising
+iCompete Natural @ 2016
+Use our Filter to connect with the Fitness Community most important to you! View posts from...
+Global
+select
+Add Photos
+                     Post
+Events
+Email Event
+16 Mar 2016Testing Grounds
+Test Event Perth
+16 Mar 20162016
+In Person Payments Only
+17 Mar 20162016
+Test Event Melbourne
+30 Mar 20162016
+Darwin Physique Titles
+2 Apr 2016Darwin Entertainment CentreNT, Australia
+View all events (Step 2)
+Feedback]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Logout] but found [Logout
+Pradeep Kumar Premium
+MY MEMBERSHIP
+My Profile
+My Business
+Renew Membership
+MY LOCALITY GUIDE
+Search Listing
+MY EVENT
+Enter New Event
+Edit Entry
+Pay
+MY HISTORY
+Events
+Invoices
+MY RESOURCES
+Resources
+Help
+MY STORE
+iCompete INBA
+Contest Prep Course
+LIFT-iQ
+Privacy - Terms - Safety - Code of Ethics - Help - Advertising
+iCompete Natural @ 2016
+Use our Filter to connect with the Fitness Community most important to you! View posts from...
+Global
+select
+Add Photos
+                     Post
+Events
+Email Event
+16 Mar 2016Testing Grounds
+Test Event Perth
+16 Mar 20162016
+In Person Payments Only
+17 Mar 20162016
+Test Event Melbourne
+30 Mar 20162016
+Darwin Physique Titles
+2 Apr 2016Darwin Entertainment CentreNT, Australia
+View all events (Step 2)
+Feedback]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at TestPackage.TestloginApp2.LoginIntoApp2(TestloginApp2.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginIntoApp2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestPackage.TestloginApp2@21d195ca]" name="afterTest" is-config="true" duration-ms="1949" started-at="2016-03-17T12:00:24Z" finished-at="2016-03-17T12:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestPackage.TestloginApp2 -->
+    </test> <!-- TestloginApp2 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
