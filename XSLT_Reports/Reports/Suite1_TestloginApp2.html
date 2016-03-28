@@ -1,0 +1,488 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               Test case
+               
+               <b>TestloginApp2</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">0%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true">20s
+               
+            </td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="TestPackage.TestloginApp2_beforeTest_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('TestPackage.TestloginApp2_beforeTest_byStatus_failed_FAIL1_details')">beforeTest()</a>
+               </td>
+               <td nowrap="true">22:21:18</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('TestPackage.TestloginApp2_beforeTest_byStatus_failed_FAIL1_exception')">org.openqa.selenium.WebDriverException: 
+                     unknown error: cannot get automation extension
+                     from timeout: Timed out receiving message from renderer: -0.096
+                     (Session info: chrome=49.0.2623.108)
+                     (Driver info: chromedriver=2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform=Windows NT 6.1 SP1 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 10.11 seconds
+                     Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
+                     System info: host: 'Roshan-VAIO', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version:
+                     '1.7.0_51'
+                     Session ID: 4c4ce5e839c88e81295642be0684bfb3
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Roshan\AppData\Local\Temp\scoped_dir9460_14363},
+                     rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=49.0.2623.108, takesHeapSnapshot=true,
+                     cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true,
+                     nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="TestPackage.TestloginApp2_beforeTest_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeTest()[pri:0, instance:TestPackage.TestloginApp2@21d195ca]
+                     </div>
+                     <div>
+                        <b>Start time: </b>22:21:18
+                     </div>
+                     <div>
+                        <b>End time: </b>22:21:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="TestPackage.TestloginApp2_beforeTest_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+                        from timeout: Timed out receiving message from renderer: -0.096
+                        (Session info: chrome=49.0.2623.108)
+                        (Driver info: chromedriver=2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform=Windows NT 6.1 SP1 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 10.11 seconds
+                        Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
+                        System info: host: 'Roshan-VAIO', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version:
+                        '1.7.0_51'
+                        Session ID: 4c4ce5e839c88e81295642be0684bfb3
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Roshan\AppData\Local\Temp\scoped_dir9460_14363},
+                        rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=49.0.2623.108, takesHeapSnapshot=true,
+                        cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true,
+                        nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+                        	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:829)
+                        	at TestPackage.TestloginApp2.beforeTest(TestloginApp2.java:22)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+                        	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+                        	at org.testng.TestRunner.run(TestRunner.java:609)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+                        	at org.testng.TestNG.run(TestNG.java:1057)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1364)
+                        	at org.testng.TestNG.main(TestNG.java:1333)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="TestPackage.TestloginApp2_LoginIntoApp2_byStatus_skiped_SKIP1_row"
+                class="testMethodStatusSKIP">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('TestPackage.TestloginApp2_LoginIntoApp2_byStatus_skiped_SKIP1_details')">LoginIntoApp2()</a>
+               </td>
+               <td nowrap="true">22:21:39</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="TestPackage.TestloginApp2_LoginIntoApp2_byStatus_skiped_SKIP1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>LoginIntoApp2
+                     </div>
+                     <div>
+                        <b>Signature: </b>LoginIntoApp2()[pri:0, instance:TestPackage.TestloginApp2@21d195ca]
+                     </div>
+                     <div>
+                        <b>Start time: </b>22:21:39
+                     </div>
+                     <div>
+                        <b>End time: </b>22:21:39
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="TestPackage.TestloginApp2_afterTest_byStatus_skiped_SKIP2_row"
+                class="testMethodStatusSKIP testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('TestPackage.TestloginApp2_afterTest_byStatus_skiped_SKIP2_details')">afterTest()</a>
+               </td>
+               <td nowrap="true">22:21:39</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="TestPackage.TestloginApp2_afterTest_byStatus_skiped_SKIP2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterTest()[pri:0, instance:TestPackage.TestloginApp2@21d195ca]
+                     </div>
+                     <div>
+                        <b>Start time: </b>22:21:39
+                     </div>
+                     <div>
+                        <b>End time: </b>22:21:39
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">TestPackage.TestloginApp2</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="TestPackage.TestloginApp2_beforeTest_byClass_FAIL1_row"
+                class="testMethodStatusFAIL testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('TestPackage.TestloginApp2_beforeTest_byClass_FAIL1_details')">beforeTest()</a>
+               </td>
+               <td nowrap="true">22:21:18</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('TestPackage.TestloginApp2_beforeTest_byClass_FAIL1_exception')">org.openqa.selenium.WebDriverException: 
+                     unknown error: cannot get automation extension
+                     from timeout: Timed out receiving message from renderer: -0.096
+                     (Session info: chrome=49.0.2623.108)
+                     (Driver info: chromedriver=2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform=Windows NT 6.1 SP1 x86_64) (WARNING:
+                     The server did not provide any stacktrace information)
+                     Command duration or timeout: 10.11 seconds
+                     Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
+                     System info: host: 'Roshan-VAIO', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version:
+                     '1.7.0_51'
+                     Session ID: 4c4ce5e839c88e81295642be0684bfb3
+                     Driver info: org.openqa.selenium.chrome.ChromeDriver
+                     Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Roshan\AppData\Local\Temp\scoped_dir9460_14363},
+                     rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=49.0.2623.108, takesHeapSnapshot=true,
+                     cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true,
+                     nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+                     
+                  </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="TestPackage.TestloginApp2_beforeTest_byClass_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>beforeTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>beforeTest()[pri:0, instance:TestPackage.TestloginApp2@21d195ca]
+                     </div>
+                     <div>
+                        <b>Start time: </b>22:21:18
+                     </div>
+                     <div>
+                        <b>End time: </b>22:21:18
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="TestPackage.TestloginApp2_beforeTest_byClass_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">org.openqa.selenium.WebDriverException: unknown error: cannot get automation extension
+                        from timeout: Timed out receiving message from renderer: -0.096
+                        (Session info: chrome=49.0.2623.108)
+                        (Driver info: chromedriver=2.12.301325 (962dea43ddd90e7e4224a03fa3c36a421281abb7),platform=Windows NT 6.1 SP1 x86_64) (WARNING:
+                        The server did not provide any stacktrace information)
+                        Command duration or timeout: 10.11 seconds
+                        Build info: version: '2.44.0', revision: '76d78cf', time: '2014-10-23 20:03:00'
+                        System info: host: 'Roshan-VAIO', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version:
+                        '1.7.0_51'
+                        Session ID: 4c4ce5e839c88e81295642be0684bfb3
+                        Driver info: org.openqa.selenium.chrome.ChromeDriver
+                        Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, chrome={userDataDir=C:\Users\Roshan\AppData\Local\Temp\scoped_dir9460_14363},
+                        rotatable=false, locationContextEnabled=true, mobileEmulationEnabled=false, version=49.0.2623.108, takesHeapSnapshot=true,
+                        cssSelectorsEnabled=true, databaseEnabled=false, handlesAlerts=true, browserConnectionEnabled=false, webStorageEnabled=true,
+                        nativeEvents=true, applicationCacheEnabled=false, takesScreenshot=true}]
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+                        	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+                        	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+                        	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+                        	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+                        	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+                        	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:829)
+                        	at TestPackage.TestloginApp2.beforeTest(TestloginApp2.java:22)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+                        	at java.lang.reflect.Method.invoke(Unknown Source)
+                        	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+                        	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+                        	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+                        	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+                        	at org.testng.TestRunner.run(TestRunner.java:609)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+                        	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+                        	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+                        	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+                        	at org.testng.TestNG.run(TestNG.java:1057)
+                        	at org.testng.TestNG.privateMain(TestNG.java:1364)
+                        	at org.testng.TestNG.main(TestNG.java:1333)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="TestPackage.TestloginApp2_LoginIntoApp2_byClass_SKIP2_row"
+                class="testMethodStatusSKIP">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('TestPackage.TestloginApp2_LoginIntoApp2_byClass_SKIP2_details')">LoginIntoApp2()</a>
+               </td>
+               <td nowrap="true">22:21:39</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="TestPackage.TestloginApp2_LoginIntoApp2_byClass_SKIP2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>LoginIntoApp2
+                     </div>
+                     <div>
+                        <b>Signature: </b>LoginIntoApp2()[pri:0, instance:TestPackage.TestloginApp2@21d195ca]
+                     </div>
+                     <div>
+                        <b>Start time: </b>22:21:39
+                     </div>
+                     <div>
+                        <b>End time: </b>22:21:39
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="TestPackage.TestloginApp2_afterTest_byClass_SKIP3_row"
+                class="testMethodStatusSKIP testMethodStatusCONF">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('TestPackage.TestloginApp2_afterTest_byClass_SKIP3_details')">afterTest()</a>
+               </td>
+               <td nowrap="true">22:21:39</td>
+               <td nowrap="true" align="right">0 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="TestPackage.TestloginApp2_afterTest_byClass_SKIP3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>afterTest
+                     </div>
+                     <div>
+                        <b>Signature: </b>afterTest()[pri:0, instance:TestPackage.TestloginApp2@21d195ca]
+                     </div>
+                     <div>
+                        <b>Start time: </b>22:21:39
+                     </div>
+                     <div>
+                        <b>End time: </b>22:21:39
+                     </div>
+                     <div>
+                        <b>Duration: </b>0 ms
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>
